@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+#body{
+    background-color: #EEEEEE;
+}
+
+#logo{
+    font-size: 40px;
+    font-family: "Acme";
+    color: #FF5656;
+}
+
+#playground{
+    max-width: 1000px;
+    min-width: 800px;
+    height: 600px;
+    background-color: #D7D3D3;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: -2px 6px 18px 3px rgba(228, 135, 135, 0.75);
+}
+
+#gamestatus{
+    text-align: center;
+    font-family: "Acme";
+    font-size: 40px;
+    color: #FF6262;
+}
+
+#player {
+    width: 100px;
+    background-color: #E1AEAE;
+    height: 100px;
+    float: left;
+    clear: left;
+    margin: 100px;
+    font-family: "Acme";
+    font-size: 10px;
+    border-radius: 5px;
+}
+
+#computer{
+    width: 100px;
+    background-color: #E1AEAE;
+    height: 100px;
+    float: right;
+    clear: right;
+    margin: 100px;
+    font-family: "Acme";
+    font-size: 10px;
+    border-radius: 5px;
+}
+
+#playeryou{
+    text-align: center;
+}
+
+#choice{
+    text-align: center;
+    font-size: 20px;
+}
+
+#playercomputer{
+    text-align: center;
+}
+
+#computerchoice{
+    text-align: center;
+    font-size: 20px;
+}
+
+#playerinteraction{
+    width: 1000px;
+    height: 300px;
+}
+
+#rock{
+    width: 128px;
+    height: 128px;
+    background-image: url("img/rock.png");
+    margin-top: 350px;
+    border: 1px solid #000000;   
+    border-radius: 5px;
+}
+
+#rock:hover{
+    box-shadow: -2px 6px 18px 3px rgba(228, 135, 135, 0.75);
+}
+
+#paper{
+    width: 128px;
+    height: 128px;
+    background-image: url("img/paper.png");
+    margin-top: 350px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+#paper:hover{
+    box-shadow: -2px 6px 18px 3px rgba(228, 135, 135, 0.75);
+}
+
+#scissor{
+    width: 128px;
+    height: 128px;
+    background-image: url("img/scissors.png");
+    margin-top: 350px;
+    border: 1px solid #000000;  
+    border-radius: 5px; 
+}
+
+#scissor:hover{
+    box-shadow: -2px 6px 18px 3px rgba(228, 135, 135, 0.75);
+}
+
+#reset{
+    width: 150px;
+    height: 50px;
+    display: none;
+    margin: 350px auto;
+    border: 1px solid #000000;  
+    border-radius: 5px; 
+    background-color: #F96262;
+}
+
+#reset:hover{
+    box-shadow: -2px 6px 18px 3px rgba(228, 135, 135, 0.75);
+}
